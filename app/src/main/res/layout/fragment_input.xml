@@ -9,68 +9,53 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="16dp">
+
         <EditText
             android:id="@+id/editId"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
+            android:hint="ID Buku"
             android:inputType="textPersonName"
-            android:text=""
-            android:hint="id buku"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginLeft="20dp"
-            />
+            android:ems="10"
+            android:layout_marginBottom="8dp" />
 
         <EditText
             android:id="@+id/editNamaBuku"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
+            android:hint="Nama Buku"
             android:inputType="textPersonName"
-            android:text=""
-            android:hint="nama buku"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginLeft="20dp"
-            />
+            android:ems="10"
+            android:layout_marginBottom="8dp" />
 
         <EditText
             android:id="@+id/editPenulis"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="20dp"
-            android:ems="10"
-            android:hint="penulis"
+            android:hint="Penulis"
             android:inputType="textPersonName"
-            android:text="" />
+            android:ems="10"
+            android:layout_marginBottom="8dp" />
 
         <EditText
             android:id="@+id/editTahunTerbit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="Tahun Terbit"
+            android:inputType="number"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text=""
-            android:hint="tahun terbit"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginLeft="20dp"
-            />
+            android:layout_marginBottom="24dp" />
 
         <Button
             android:id="@+id/btnInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="100dp"
-            android:layout_marginRight="20dp"
             android:text="Input Buku"
-            app:cornerRadius="20dp" />
-
+            android:background="@drawable/rounded_button"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false" />
 
     </LinearLayout>
 </FrameLayout>
